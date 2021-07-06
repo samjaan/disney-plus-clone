@@ -5,5 +5,5 @@
 ### `yarn & npm install`
   Installing requiremently packages 
 
-### `yarn start & npm start`
+### `yarn run dev & npm run dev`
 Starting server in the devolopment mode `default localhost:3000`
