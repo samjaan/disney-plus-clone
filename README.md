@@ -6,4 +6,4 @@
   Installing requiremently packages 
 
 ### `yarn run dev & npm run dev`
-Starting server in the devolopment mode `default localhost:3000`
+Starting server in the devolopment mode `default : localhost:3000`
