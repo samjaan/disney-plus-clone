@@ -56,7 +56,7 @@ const Header = (props) => {
   return (
     <NavbarRow>
       <ImageLogo src="/images/logo.svg" alt="" className="" />
-      {!userName ? <LoginBtn onClick={handleAuth}>Log in</LoginBtn> : (<>
+      {!userName ? <SignupBtn onClick={handleAuth}>Sign up</SignupBtn> : (<>
       <HeaderMenu>
         <Link to="/home" className="NavMenu">
           <img src="/images/home-icon.svg" alt="Home" className="NavIcon" />
@@ -136,7 +136,7 @@ const HeaderMenu = styled.div`
     }
   }
 `;
-const LoginBtn = styled.a`
+const SignupBtn = styled.a`
   font-weight: bold;
   padding: 5px 10px;
   font-size: 15px;
