@@ -22,7 +22,7 @@ const Login = (props) => {
 }
 
 const Container = styled.section`
-    overflow: auto;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,6 +32,7 @@ const Content = styled.div`
     margin-bottom: 10vw;
     padding-top: 70px;
     width: 100%;
+    overflow: auto;
     position: relative;
     min-height: 100vh;
     display: flex;

@@ -5,7 +5,6 @@ import Header from './Components/Header'
 import Home from './Components/Home'
 import Details from './Components/Details'
 function App() {
-
   return (
       <Router>
             <Header />

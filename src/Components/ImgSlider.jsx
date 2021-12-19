@@ -17,10 +17,9 @@ function ImgSlider() {
       <Swiper
       navigation
       pagination
-        
-        className="SwiperImageSlider"
-        spaceBetween={20}
-        slidesPerView={1.2}
+      className="SwiperImageSlider"
+      spaceBetween={20}
+      slidesPerView={1.2}
         
         autoplay={{
           delay: 2000,

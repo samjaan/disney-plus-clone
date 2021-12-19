@@ -95,6 +95,8 @@ const Header = (props) => {
     </NavbarRow>
   );
 };
+
+//styled-Components
 const ImageLogo = styled.img`
   width: 100px;
 `;
