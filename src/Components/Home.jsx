@@ -83,8 +83,8 @@ const IMGtoTop = styled.img`
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 50px
-
+  width: 10vh;
+  opacity: 0.8;
 `
 const Container = styled.main`
   height: 100%;
