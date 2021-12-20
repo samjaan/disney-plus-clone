@@ -171,7 +171,7 @@ const NavbarRow = styled.nav`
 `;
 const UserImage = styled.img`
  height: 100%;
- border-radius: 100%; 
+ border-radius: 35%; 
   
   
 `
