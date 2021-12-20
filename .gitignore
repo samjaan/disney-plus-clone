@@ -1,4 +1,5 @@
 node_modules/
 dist/
 src/Firebase.js
-firebase.json
+.firebase
+firebase-debug.log

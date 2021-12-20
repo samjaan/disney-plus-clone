@@ -140,7 +140,7 @@ const HeaderMenu = styled.div`
 `;
 const SignupBtn = styled.a`
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 8px 15px;
   font-size: 15px;
   border: 1px solid #f9f9f9;
   border-radius: 4px;
@@ -159,7 +159,7 @@ const SignupBtn = styled.a`
 const NavbarRow = styled.nav`
   position: fixed;
   inset: 0;
-  height: 70px;
+  height: 80px;
   z-index: 100 !important;
   display: flex;
   align-items: center;
@@ -171,7 +171,7 @@ const NavbarRow = styled.nav`
 `;
 const UserImage = styled.img`
  height: 100%;
- border-radius: 100%; 
+ border-radius: 35%; 
   
   
 `
