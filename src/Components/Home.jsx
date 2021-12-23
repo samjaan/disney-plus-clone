@@ -6,7 +6,7 @@ import Recommends from "./Recommends";
 import NewDisney from "./NewDisney";
 import Originals from "./Originals";
 import Trending from "./Trending";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import db from "../Firebase";
 import { setMovies } from "../features/movie/movieSlice";
@@ -55,19 +55,21 @@ function Home(props) {
     });
   }, [userName]);
   return (
-    <div id="ha">
+   userName && <>
     <Helmet>
       <title>{`Disney-plus-clone`}</title>
     </Helmet>
       <Container >
         <ImgSlider />
-        <a onClick={()=>{
-          history.createHref("/home")
-        }}
-        href="#ha">
+        
 
-        <IMGtoTop src="/images/chevron-up-circle.svg"></IMGtoTop>
-        </a>
+        <IMGtoTop src="/images/chevron-up-circle.svg" style={{
+          cursor: "pointer"
+        }}
+        onClick={()=>{
+          document.documentElement.scrollTop = 0
+        }}
+        />
         <div style={{ marginTop: " 30px", padding: "0 calc(3.5vw + 5px)" }}>
           <Viewers />
           <Recommends />
@@ -76,7 +78,7 @@ function Home(props) {
           <Originals />
         </div>
       </Container>
-    </div>
+    </>
   );
 }
 const IMGtoTop = styled.img`
