@@ -11,7 +11,7 @@
 
 [Styled-Components - Main Docs](https://styled-components.com/)
 
-```
+```jsx
 import styled from "styled-components";
 
 const ReactComponent = () => {
@@ -32,7 +32,7 @@ export default ReactComponent
 
 [React-redux documentation](https://react-redux.js.org/)
 
-```
+```jsx
     //useSelector example
     import {useSelector} from "react-redux"
     import {selectUsername} from "../Features/username.js"
@@ -46,7 +46,7 @@ export default ReactComponent
     }
     export default ReactComponent
 ```
-```
+```jsx
     //useDispatch example
     import {useDispatch} from "react-redux"
     import {setDetails} from "../features/username.js"
