@@ -7,6 +7,10 @@
 <https://disneyplus-clone-pro.firebaseapp.com> <br/>
 <https://disneyplus-clone-pro.web.app>
 
+| Login Page                                        | Home page                                       |
+|:-------------------------------------------------:|:-----------------------------------------------:|
+| ![](details/login.png?raw=true)                   | ![](details/home.png?raw=true)                  |
+
 ## Styled Components
 
 [Styled-Components - Main Docs](https://styled-components.com/)
