@@ -9,7 +9,7 @@
 
 | Login Page                                        | Home page                                       |
 |:-------------------------------------------------:|:-----------------------------------------------:|
-| ![](details/login.png?raw=true)                   | ![](details/home.png?raw=true)                  |
+| ![](details/login.png)                            | ![](details/home.png?)                          |
 
 ## Styled Components
 
